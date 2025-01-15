@@ -1,0 +1,67 @@
+
+
+
+.skill{
+
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+
+}
+
+.title{
+
+    font-size: 6vh;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bolder;
+
+    margin-top: 5vh;
+}
+
+.section{
+
+    /* display: flex;
+    justify-content: space-evenly; */
+    margin-bottom: 10vh;
+
+}
+
+.section img{
+    height: 13vh;
+    width: 13vh;
+
+    border-radius: 3vh;
+}
+
+.sectionlabel{
+
+    background: rgb(73, 198, 236);
+    width: fit-content;
+    padding: 1vh;
+    border-radius: 2vh;
+
+    color:white;
+    font-Size:3vh;
+    margin-Bottom:2vh;
+    text-Decoration:underline;
+}
+
+.sections{
+
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.subsection{
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 5vh;
+
+}
+

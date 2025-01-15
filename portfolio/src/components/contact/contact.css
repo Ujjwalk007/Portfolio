@@ -1,0 +1,23 @@
+
+
+.cont{
+
+    display: flex;
+    justify-content: space-between;
+    background: #19376D;
+    border-top: #061736 solid 1vh;
+
+}
+
+.right{
+
+    color: white;
+    font-family: "Outfit";
+
+    
+}
+
+.left{
+
+   
+}

@@ -1,0 +1,161 @@
+
+.about{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+
+    
+    margin-left: 10vh;
+    margin-right: 10vh;
+    border-radius: 6vh;
+
+    
+
+    
+}
+
+.circle{
+
+    border: 1vh solid rgb(10, 81, 168);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    height: 40vh;
+    width: 40vh;
+
+    background-image: url('./Uk.png');
+    background-size: cover;
+}
+
+.circle label{
+    position: absolute;
+    text-align: center;
+    font-size: 2vh;
+
+    border-radius: 2vh;
+    height: 6vh;
+    width: fit-content;
+    border: 0.5vh solid black;
+    padding: 1vh;
+
+   
+   background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    
+}
+
+.education{
+
+    top: -4vh; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.achievements {
+    left: 0%; 
+    bottom: 10%;
+    transform: translateY(50%);
+}
+
+.cocurriculum {
+    right: 0%; 
+    bottom: 10%;
+    transform: translateY(50%);
+}
+
+.about-left{
+
+    padding: 10vh;
+
+
+}
+
+
+
+.button-bar{
+    padding:7vh;
+    
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.button-19 {
+    appearance: button;
+    background-color: #124dac;
+    border: solid transparent;
+    border-radius: 2.2vh;
+    border-width: 0 0 0.6vh;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round, sans-serif;
+    font-size: 2.2vh;
+    font-weight: 700;
+    letter-spacing: 0.12vh;
+    line-height: 3vh;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 2vh 2.4vh;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter 0.2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+
+    height: 6vh;
+  }
+  
+  .button-19:after {
+    background-clip: padding-box;
+    background-color: #0c89c3;
+    border: solid transparent;
+    border-radius: 2.2vh;
+    border-width: 0 0 0.6vh;
+    bottom: -0.6vh;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .button-19,
+  .button-19:focus {
+    user-select: auto;
+  }
+  
+  .button-19:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+  }
+  
+  .button-19:disabled {
+    cursor: auto;
+  }
+  
+  .button-19:active {
+    border-width: 0.6vh 0 0;
+    background: none;
+  }
+  
+  .Text{
+
+    padding-left: 7vh;
+    font-size: 2.5vh;
+    color: white;
+
+
+  }

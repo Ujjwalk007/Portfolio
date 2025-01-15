@@ -1,0 +1,77 @@
+
+
+
+.proj{
+
+    
+    
+    height: fit-content;
+    flex-direction: column;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+
+    font-Size:6vh;
+    color: white;
+
+
+    
+}
+
+.project {
+    background: #103783;
+    color: #fff;
+    padding: 3vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    border: 1vh solid rgb(28, 6, 69);
+    border-radius: 2vh;
+    height: 60vh;
+    width: 60vh;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 2rem auto;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(16, 55, 131, 0.8);
+}
+
+
+.project p{
+    font-size: 2vh;
+    font-style: italic;
+
+
+    
+}
+
+.projects{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nproject{
+
+    margin: 5vh;
+    border: 0.5vh solid #103783;
+    border-radius: 2vh;
+
+    width: 130vh;
+    height: 50vh;
+
+    display: flex;
+    justify-content: space-between;
+
+    background: #103783;
+
+}
+
+.pright{
+    font-size: 2.5vh;
+    
+    margin-top: 3vh;
+}
+
