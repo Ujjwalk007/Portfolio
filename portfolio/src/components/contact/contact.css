@@ -21,3 +21,36 @@
 
    
 }
+
+.contact-row{
+  display: flex;
+  align-items: center;
+  gap: 1vh;
+  margin: 3vh 0;
+}
+
+.contact-icon{
+  height: 5vh;
+  width: 5vh;
+}
+
+.contact-link{
+  margin-left: 1vh;
+  color: white;
+  text-decoration: none;
+}
+
+/* Large tablets */
+@media (max-width: 992px){
+  .cont{ padding: 2rem; }
+}
+
+/* Mobile */
+@media (max-width: 768px){
+  .cont{ 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2vh;
+  }
+}

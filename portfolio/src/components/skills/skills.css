@@ -64,4 +64,19 @@
     margin-bottom: 5vh;
 
 }
+/* Large tablets */
+@media (max-width: 992px){
+  .skill{ margin-left: 4vh; margin-right: 4vh; }
+  .sections{ gap: 2rem; }
+  .section img{ height: 11vh; width: 11vh; }
+}
+
+/* Mobile */
+@media (max-width: 768px){
+  .skill{ margin-left: 2vh; margin-right: 2vh; margin-top: 10vh; }
+  .sections{ flex-direction: column; gap: 3rem; }
+  .subsection{ justify-content: center; gap: 4vh; }
+  .section img{ height: 9vh; width: 9vh; }
+  .title{ font-size: 4vh; }
+}
 

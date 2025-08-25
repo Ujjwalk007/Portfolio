@@ -74,8 +74,8 @@ function Projects()
                         <div className='nproject'>
 
                             <div className='pleft'>
-                                <img src={agni} alt='Agnivesh Logo' style={{height:'30vh',width:'50vh',borderRadius:'2vh',margin:'2vh'}}></img>
-                                <div style={{fontSize:'2.5vh',width:'50vh',margin:'2vh'}}>
+                                <img src={agni} alt='Agnivesh Logo' className='proj-img'></img>
+                                <div className='tech-stack'>
                                 <u><b>Tech Stack:</b></u> Python 3.0, XGBoost, Scikit-Learn Library, JupyterNotebook, Figma,React.js, Node.js, Flask
                                 </div>
                             </div>
@@ -97,8 +97,8 @@ function Projects()
                         <div className='nproject'>
 
                             <div className='pleft'>
-                                <img src={anpr} alt='Agnivesh Logo' style={{height:'30vh',width:'50vh',borderRadius:'2vh',margin:'2vh'}}></img>
-                                <div style={{fontSize:'2.5vh',width:'50vh',margin:'0 2vh 0 2vh'}}>
+                                <img src={anpr} alt='Agnivesh Logo' className='proj-img'></img>
+                                <div className='tech-stack'>
                                 <b><u>Tech Stack</u></b>: OpenCV (Computer Vision Library), OCR (Optical Character Recognition), Python-3, Noise Removal
                                 Techniques
                                 </div>
@@ -125,8 +125,8 @@ function Projects()
                             <div className='nproject'>
 
                             <div className='pleft'>
-                                <img src={port} alt='Portfolio Website' style={{height:'30vh',width:'50vh',borderRadius:'2vh',margin:'2vh'}}></img>
-                                <div style={{fontSize:'2.5vh',width:'50vh',margin:'0 2vh 0 2vh'}}>
+                                <img src={port} alt='Portfolio Website' className='proj-img'></img>
+                                <div className='tech-stack'>
                                 <b><u>Tech Stack:</u></b> React.js, Bootstrap, CSS
                                 </div>
                             </div>
@@ -135,7 +135,7 @@ function Projects()
                                 <center>
                                 <label style={{fontFamily:'Outfit',fontWeight:'bold',fontSize:'4vh',marginBottom:'2vh'}}> Portfolio Website</label>
                                 </center>
-                                ● Apersonal portfolio website designed to showcase projects, skills, and achievements in a clean and professional layout. It
+                                ● A personal portfolio website designed to showcase projects, skills, and achievements in a clean and professional layout. It
                                   includes interactive sections for users to explore projects, download resumes, and contact directly. <br/><br/>
                                 ● It serves as a dynamic platform to highlight expertise, creativity, and technical capabilities effectively
 

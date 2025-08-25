@@ -2,32 +2,20 @@
 
 .main{
 
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30vh;
+    margin-top: 15vh;
 
 }
 
 
-.left{
-
-    margin-left: 40vh;
+.left{}
 
 
-}
-
-
-.right{
-
-        margin-right: 55vh;
-
-
-}
+.right{}
 
 .image{
 
-    height:35vh;
-    width:35vh;
+    height:32vh;
+    width:32vh;
 
   
 
@@ -55,14 +43,14 @@
 
 .heading{
 
-    font-size: 7vh;
+    font-size: 3rem;
     color: white;
     font-family: 'Outfit', sans-serif;
     font-weight: bolder;
 }
 
 .text{
-    font-size: 3vh;
+    font-size: 1.2rem;
     color:white;
     font-style: italic;
 }
@@ -118,4 +106,48 @@
 }
 
 
+@media  (max-width:992px) {
+  .main { margin-top: 10vh; }
+  .heading{ font-size: 2.25rem; }
+  .text{ font-size: 1.05rem; }
+  .image{ height: 28vh; width: 28vh; }
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .main {
+    margin-top: 6vh;
+    padding: 0 1rem;
+  }
+
+  .left {
+    margin-top: 2vh;
+  }
+
+  .right {
+    align-items: center;
+    margin-bottom: 2vh;
+  }
+
+  .image { height: 24vh; width: 24vh; }
+
+  .heading { font-size: 1.75rem; margin-bottom: 1vh; }
+
+  .text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2vh;
+    word-wrap: break-word; 
+  }
+
+  .button-29 {
+    width: 100%;
+    max-width: 280px;
+  }
+}
 

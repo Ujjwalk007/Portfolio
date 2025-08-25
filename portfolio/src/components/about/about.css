@@ -159,3 +159,34 @@
 
 
   }
+
+
+  
+/* Large tablets */
+@media (max-width: 992px){
+  .about{ margin-left: 4vh; margin-right: 4vh; }
+  .about-left{ padding: 5vh; }
+  .circle{ height: 32vh; width: 32vh; }
+  .circle label{ font-size: 1.8vh; }
+  .button-bar{ padding: 3vh; }
+  .Text{ padding-left: 3vh; font-size: 2.2vh; }
+}
+
+/* Mobile */
+@media (max-width: 768px){
+  .about{ 
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vh; 
+    margin-right: 2vh;
+  }
+  .about-left{ padding: 3vh 0; }
+  .circle{ height: 26vh; width: 26vh; }
+  .circle label{ font-size: 1.6vh; height: auto; padding: 0.8vh 1.2vh; }
+  .button-bar{ 
+    padding: 0 0 2vh 0; 
+    flex-direction: column; 
+    gap: 1.2vh;
+  }
+  .Text{ padding-left: 0; font-size: 2vh; }
+}

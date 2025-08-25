@@ -11,43 +11,36 @@ function Home(){
 
     return (<>
     
-    <div id='#about'     className="main">
+    <div className="container main">
 
-        <div className="left">
+        <div className="row align-items-center gx-5">
 
-            <label className="heading">Hi, I'm Ujjwal</label><br/>
-            <label className="text">I'm a Computer Science student <br/>
-            passionate about software development and <br/> 
-            aspiring to excel in artificial intelligence.
-            </label> <br/> <br/>
+            <div className="col-12 col-md-6 left">
 
-            <button className='button-29' onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Contact Me</button>  
-            
-            <button className='button-29' style={{marginLeft:'3vh'}} onClick={ShowResume}>
-                Resume
-            </button>
+                <label className="heading">Hi, I'm Ujjwal</label><br/>
+                <label className="text">I'm a Computer Science student <br/>
+                passionate about software development and <br/> 
+                aspiring to excel in artificial intelligence.
+                </label> <br/> <br/>
 
+                <div className='d-flex flex-column flex-sm-row gap-3'>
+                    <button className='button-29' onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Contact Me</button>  
+                    <button className='button-29' onClick={ShowResume}>
+                        Resume
+                    </button>
+                </div>
 
+            </div>
+
+            <div className="col-12 col-md-6 right d-flex justify-content-center justify-content-md-end">
+
+               <img src={myphoto} className='image' alt='UK_Photo'/>
+
+            </div>
 
         </div>
-
-        <div className="right">
-
-           <img src={myphoto} className='image' alt='UK_Photo'/>
-
-        </div>
-
-
-
-
-
 
     </div>
-    
-    
-    
-    
-    
     
     </>)
 }

@@ -1,0 +1,70 @@
+.custom-navbar{
+  border-bottom: 0.5vh black;
+  border-radius: 0 0 2vh 2vh;
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.custom-container{
+  padding-left: 10vh;
+  padding-right: 10vh;
+}
+
+.brand{
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  font-family: 'Outfit', sans-serif;
+  text-decoration: none;
+}
+
+.nav-list{
+  padding-right: 10vh;
+  font-family: 'Outfit', sans-serif;
+  gap: 2rem;
+}
+
+.nav-link-custom{
+  color: white;
+}
+
+.custom-toggler{
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+.custom-toggler-icon{
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+}
+
+.custom-toggler-icon::before,
+.custom-toggler-icon::after,
+.custom-toggler-icon span{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: white;
+}
+
+.custom-toggler-icon::before{ top: 4px; }
+.custom-toggler-icon::after{ bottom: 4px; }
+.custom-toggler-icon span{ top: calc(50% - 1px); }
+
+/* Ensure inner span exists for the middle bar */
+.custom-toggler .custom-toggler-icon::before,
+.custom-toggler .custom-toggler-icon::after{ content: ''; }
+
+@media (max-width: 992px){
+  .brand{ font-size: 2rem; }
+  .custom-container{ padding-left: 2rem; padding-right: 2rem; }
+  .nav-list{ padding-right: 0; gap: 1rem; }
+}
+
+@media (max-width: 576px){
+  .brand{ font-size: 1.5rem; }
+}
+
+

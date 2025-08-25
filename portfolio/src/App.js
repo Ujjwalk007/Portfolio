@@ -9,7 +9,7 @@ import About from './components/about/about';
 
 
 // 1.Add about - Education, Extra Curriculum experiences, Achievements <= DONE
-// 2.Project Palet Fix
+// 2.Project Palet Fix <= DONE
 // 3.Sagrigate SKills (Languages,Frameworks,Databases, Tools)  <= DONE
 
 

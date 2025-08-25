@@ -39,19 +39,19 @@ function Contact()
 
         <div className='right'>
 
-            <div style={{marginTop:'10vh',marginRight:'30vh'}}>
-                <img src={mail} style={{height:'5vh',width:'5vh'}}></img>
-                <a href='mailto:ujjwalkulkarni6@gmail.com' style={{marginLeft:'1vh',color:'white',textDecoration:'none'}}>ujjwalkulkarni6@gmail.com</a>
+            <div className='contact-row'>
+                <img src={mail} className='contact-icon' alt='Email icon'></img>
+                <a href='mailto:ujjwalkulkarni6@gmail.com' className='contact-link'>ujjwalkulkarni6@gmail.com</a>
             </div>
 
-            <div style={{marginTop:'5vh',marginRight:'30vh'}}>
-                <img src={linkedin} style={{height:'5vh',width:'5vh'}}></img>
-                <a href='https://www.linkedin.com/in/ujjwal-kulkarni/' style={{marginLeft:'1vh',color:'white',textDecoration:'none'}}>linkedIn</a>
+            <div className='contact-row'>
+                <img src={linkedin} className='contact-icon' alt='LinkedIn icon'></img>
+                <a href='https://www.linkedin.com/in/ujjwal-kulkarni/' className='contact-link'>linkedIn</a>
             </div>
 
-            <div style={{marginTop:'5vh',marginRight:'30vh'}}>
-                <img src={github} style={{height:'5vh',width:'5vh',background:'white'}}></img>
-                <a href='https://github.com/Ujjwalk007' style={{marginLeft:'1vh',color:'white',textDecoration:'none'}}>Github</a>
+            <div className='contact-row'>
+                <img src={github} className='contact-icon' style={{background:'white'}} alt='GitHub icon'></img>
+                <a href='https://github.com/Ujjwalk007' className='contact-link'>Github</a>
             </div>
 
 
