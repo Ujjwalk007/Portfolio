@@ -13,9 +13,9 @@ function Home(){
     
     <div className="container main">
 
-        <div className="row align-items-center gx-5">
+        <div className="row justify-content-center align-items-center g-3">
 
-            <div className="col-12 col-md-6 left">
+            <div className="col-12 col-md-6 col-lg-5 left">
 
                 <label className="heading">Hi, I'm Ujjwal</label><br/>
                 <label className="text">I'm a Computer Science student <br/>
@@ -32,7 +32,7 @@ function Home(){
 
             </div>
 
-            <div className="col-12 col-md-6 right d-flex justify-content-center justify-content-md-end">
+            <div className="col-12 col-md-6 col-lg-5 right d-flex justify-content-center">
 
                <img src={myphoto} className='image' alt='UK_Photo'/>
 
